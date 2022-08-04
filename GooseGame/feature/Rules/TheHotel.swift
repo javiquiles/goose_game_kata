@@ -1,20 +1,20 @@
 //
-//  TheBridge.swift
+//  TheHotel.swift
 //  GooseGame
 //
-//  Created by Javier Alejandro Quiles on 03/08/2022.
+//  Created by Javier Alejandro Quiles on 04/08/2022.
 //
 
-class TheBridge: Rule {
+class TheHotel: Rule {
     var next: Rule?
-    
+
     required init(next: Rule?) {
         self.next = next
     }
     
     func getDescription(space: Int) -> String? {
-        if space == 6 {
-            return "The Bridge: Go to space 12"
+        if space == 19 {
+            return "The Hotel: Stay for (miss) one turn"
         }
         
         return next?.getDescription(space: space)

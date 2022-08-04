@@ -6,10 +6,14 @@
 //
 
 class RulesFactory {
-    static func create() -> Rule {
+    static func createFirstRule() -> Rule {
         let stayInSpace = StayInSpace(next: nil)
         let multipleSix = MultipleSix(next: stayInSpace)
+        let thePrison = ThePrison(next: multipleSix)
+        let theBridge = TheBridge(next: thePrison)
+        let theHotel = TheHotel(next: theBridge)
+        let theWell = TheWell(next: theHotel)
         
-        return TheBridge(next: multipleSix)
+        return TheMaze(next: theWell)
     }
 }

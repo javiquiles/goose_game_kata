@@ -7,5 +7,5 @@
 
 protocol Rule {
     init(next: Rule?)
-    func handle(space: Int) -> String?
+    func getDescription(space: Int) -> String?
 }

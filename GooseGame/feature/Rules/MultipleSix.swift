@@ -12,11 +12,11 @@ class MultipleSix: Rule {
         self.next = next
     }
     
-    func handle(space: Int) -> String? {
+    func getDescription(space: Int) -> String? {
         if space % 6 == 0 {
             return "Move two spaces forward"
         }
         
-        return next?.handle(space: space)
+        return next?.getDescription(space: space)
     }
 }

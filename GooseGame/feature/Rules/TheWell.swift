@@ -1,20 +1,20 @@
 //
-//  TheBridge.swift
+//  TheWell.swift
 //  GooseGame
 //
-//  Created by Javier Alejandro Quiles on 03/08/2022.
+//  Created by Javier Alejandro Quiles on 04/08/2022.
 //
 
-class TheBridge: Rule {
+class TheWell: Rule {
     var next: Rule?
-    
+
     required init(next: Rule?) {
         self.next = next
     }
     
     func getDescription(space: Int) -> String? {
-        if space == 6 {
-            return "The Bridge: Go to space 12"
+        if space == 31 {
+            return "The Well: Wait until someone comes to pull you out - they then take your place"
         }
         
         return next?.getDescription(space: space)

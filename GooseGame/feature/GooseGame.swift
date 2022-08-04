@@ -6,8 +6,8 @@
 //
 
 class GooseGame {
-    func getRuleBy(space: Int) -> String {
-        let rule = RulesFactory.create()
-        return rule.handle(space: space) ?? ""
+    func getRuleDescriptionBy(space: Int) -> String {
+        let rule = RulesFactory.createFirstRule()
+        return rule.getDescription(space: space) ?? ""
     }
 }

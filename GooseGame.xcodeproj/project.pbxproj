@@ -18,17 +18,14 @@
 		669DB86F289A1ADE00D16730 /* MultipleSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB86E289A1ADE00D16730 /* MultipleSix.swift */; };
 		669DB871289A1D7A00D16730 /* RulesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB870289A1D7A00D16730 /* RulesFactory.swift */; };
 		669DB874289A2A3100D16730 /* TheBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB873289A2A3100D16730 /* TheBridge.swift */; };
+		669DB876289B6E4B00D16730 /* TheHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB875289B6E4B00D16730 /* TheHotel.swift */; };
+		669DB878289B6FE100D16730 /* TheWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB877289B6FE100D16730 /* TheWell.swift */; };
+		669DB87A289B712500D16730 /* TheMaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB879289B712500D16730 /* TheMaze.swift */; };
+		669DB87C289B72D600D16730 /* ThePrison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB87B289B72D600D16730 /* ThePrison.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		669DB84A2898B61200D16730 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 669DB8312898B61000D16730 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 669DB8382898B61000D16730;
-			remoteInfo = GooseGame;
-		};
-		669DB8542898B61200D16730 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 669DB8312898B61000D16730 /* Project object */;
 			proxyType = 1;
@@ -45,13 +42,16 @@
 		669DB8432898B61200D16730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		669DB8492898B61200D16730 /* GooseGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooseGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669DB84D2898B61200D16730 /* GooseGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooseGameTests.swift; sourceTree = "<group>"; };
-		669DB8532898B61200D16730 /* GooseGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooseGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		669DB8672898CDE100D16730 /* GooseGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooseGame.swift; sourceTree = "<group>"; };
 		669DB86A289A198B00D16730 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
 		669DB86C289A1A5000D16730 /* StayInSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StayInSpace.swift; sourceTree = "<group>"; };
 		669DB86E289A1ADE00D16730 /* MultipleSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSix.swift; sourceTree = "<group>"; };
 		669DB870289A1D7A00D16730 /* RulesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesFactory.swift; sourceTree = "<group>"; };
 		669DB873289A2A3100D16730 /* TheBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBridge.swift; sourceTree = "<group>"; };
+		669DB875289B6E4B00D16730 /* TheHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHotel.swift; sourceTree = "<group>"; };
+		669DB877289B6FE100D16730 /* TheWell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWell.swift; sourceTree = "<group>"; };
+		669DB879289B712500D16730 /* TheMaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMaze.swift; sourceTree = "<group>"; };
+		669DB87B289B72D600D16730 /* ThePrison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePrison.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +63,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		669DB8462898B61200D16730 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		669DB8502898B61200D16730 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -93,7 +86,6 @@
 			children = (
 				669DB8392898B61000D16730 /* GooseGame.app */,
 				669DB8492898B61200D16730 /* GooseGameTests.xctest */,
-				669DB8532898B61200D16730 /* GooseGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,6 +126,10 @@
 				669DB86C289A1A5000D16730 /* StayInSpace.swift */,
 				669DB86E289A1ADE00D16730 /* MultipleSix.swift */,
 				669DB873289A2A3100D16730 /* TheBridge.swift */,
+				669DB875289B6E4B00D16730 /* TheHotel.swift */,
+				669DB877289B6FE100D16730 /* TheWell.swift */,
+				669DB879289B712500D16730 /* TheMaze.swift */,
+				669DB87B289B72D600D16730 /* ThePrison.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -185,24 +181,6 @@
 			productReference = 669DB8492898B61200D16730 /* GooseGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		669DB8522898B61200D16730 /* GooseGameUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 669DB8632898B61200D16730 /* Build configuration list for PBXNativeTarget "GooseGameUITests" */;
-			buildPhases = (
-				669DB84F2898B61200D16730 /* Sources */,
-				669DB8502898B61200D16730 /* Frameworks */,
-				669DB8512898B61200D16730 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				669DB8552898B61200D16730 /* PBXTargetDependency */,
-			);
-			name = GooseGameUITests;
-			productName = GooseGameUITests;
-			productReference = 669DB8532898B61200D16730 /* GooseGameUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,10 +195,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					669DB8482898B61200D16730 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 669DB8382898B61000D16730;
-					};
-					669DB8522898B61200D16730 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 669DB8382898B61000D16730;
 					};
@@ -241,7 +215,6 @@
 			targets = (
 				669DB8382898B61000D16730 /* GooseGame */,
 				669DB8482898B61200D16730 /* GooseGameTests */,
-				669DB8522898B61200D16730 /* GooseGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,13 +236,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		669DB8512898B61200D16730 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -279,12 +245,16 @@
 			files = (
 				669DB874289A2A3100D16730 /* TheBridge.swift in Sources */,
 				669DB871289A1D7A00D16730 /* RulesFactory.swift in Sources */,
+				669DB87C289B72D600D16730 /* ThePrison.swift in Sources */,
+				669DB876289B6E4B00D16730 /* TheHotel.swift in Sources */,
 				669DB83F2898B61000D16730 /* ContentView.swift in Sources */,
 				669DB86B289A198B00D16730 /* Rule.swift in Sources */,
 				669DB86F289A1ADE00D16730 /* MultipleSix.swift in Sources */,
 				669DB83D2898B61000D16730 /* GooseGameApp.swift in Sources */,
 				669DB86D289A1A5000D16730 /* StayInSpace.swift in Sources */,
+				669DB87A289B712500D16730 /* TheMaze.swift in Sources */,
 				669DB8682898CDE100D16730 /* GooseGame.swift in Sources */,
+				669DB878289B6FE100D16730 /* TheWell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,13 +266,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		669DB84F2898B61200D16730 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -310,11 +273,6 @@
 			isa = PBXTargetDependency;
 			target = 669DB8382898B61000D16730 /* GooseGame */;
 			targetProxy = 669DB84A2898B61200D16730 /* PBXContainerItemProxy */;
-		};
-		669DB8552898B61200D16730 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 669DB8382898B61000D16730 /* GooseGame */;
-			targetProxy = 669DB8542898B61200D16730 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -533,42 +491,6 @@
 			};
 			name = Release;
 		};
-		669DB8642898B61200D16730 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NUQ3FJC9RW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.etermax.GooseGameUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GooseGame;
-			};
-			name = Debug;
-		};
-		669DB8652898B61200D16730 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = NUQ3FJC9RW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.etermax.GooseGameUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GooseGame;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,15 +517,6 @@
 			buildConfigurations = (
 				669DB8612898B61200D16730 /* Debug */,
 				669DB8622898B61200D16730 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		669DB8632898B61200D16730 /* Build configuration list for PBXNativeTarget "GooseGameUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				669DB8642898B61200D16730 /* Debug */,
-				669DB8652898B61200D16730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

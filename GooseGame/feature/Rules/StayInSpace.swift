@@ -12,7 +12,7 @@ class StayInSpace: Rule {
         self.next = next
     }
     
-    func handle(space: Int) -> String? {
+    func getDescription(space: Int) -> String? {
        "Stay in space \(space)"
     }
 }
