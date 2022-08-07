@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		669BB01928A07C3E00110F3A /* TheDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BB01828A07C3E00110F3A /* TheDeath.swift */; };
+		669BB01B28A07DB600110F3A /* TheFinish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BB01A28A07DB600110F3A /* TheFinish.swift */; };
+		669BB01D28A07FD300110F3A /* GoBackToPrison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669BB01C28A07FD300110F3A /* GoBackToPrison.swift */; };
 		669DB83D2898B61000D16730 /* GooseGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB83C2898B61000D16730 /* GooseGameApp.swift */; };
 		669DB83F2898B61000D16730 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DB83E2898B61000D16730 /* ContentView.swift */; };
 		669DB8412898B61200D16730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 669DB8402898B61200D16730 /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		669BB01828A07C3E00110F3A /* TheDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDeath.swift; sourceTree = "<group>"; };
+		669BB01A28A07DB600110F3A /* TheFinish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFinish.swift; sourceTree = "<group>"; };
+		669BB01C28A07FD300110F3A /* GoBackToPrison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBackToPrison.swift; sourceTree = "<group>"; };
 		669DB8392898B61000D16730 /* GooseGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooseGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		669DB83C2898B61000D16730 /* GooseGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooseGameApp.swift; sourceTree = "<group>"; };
 		669DB83E2898B61000D16730 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +136,9 @@
 				669DB877289B6FE100D16730 /* TheWell.swift */,
 				669DB879289B712500D16730 /* TheMaze.swift */,
 				669DB87B289B72D600D16730 /* ThePrison.swift */,
+				669BB01828A07C3E00110F3A /* TheDeath.swift */,
+				669BB01A28A07DB600110F3A /* TheFinish.swift */,
+				669BB01C28A07FD300110F3A /* GoBackToPrison.swift */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -247,13 +256,16 @@
 				669DB871289A1D7A00D16730 /* RulesFactory.swift in Sources */,
 				669DB87C289B72D600D16730 /* ThePrison.swift in Sources */,
 				669DB876289B6E4B00D16730 /* TheHotel.swift in Sources */,
+				669BB01928A07C3E00110F3A /* TheDeath.swift in Sources */,
 				669DB83F2898B61000D16730 /* ContentView.swift in Sources */,
+				669BB01D28A07FD300110F3A /* GoBackToPrison.swift in Sources */,
 				669DB86B289A198B00D16730 /* Rule.swift in Sources */,
 				669DB86F289A1ADE00D16730 /* MultipleSix.swift in Sources */,
 				669DB83D2898B61000D16730 /* GooseGameApp.swift in Sources */,
 				669DB86D289A1A5000D16730 /* StayInSpace.swift in Sources */,
 				669DB87A289B712500D16730 /* TheMaze.swift in Sources */,
 				669DB8682898CDE100D16730 /* GooseGame.swift in Sources */,
+				669BB01B28A07DB600110F3A /* TheFinish.swift in Sources */,
 				669DB878289B6FE100D16730 /* TheWell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

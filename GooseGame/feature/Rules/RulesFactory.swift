@@ -13,7 +13,10 @@ class RulesFactory {
         let theBridge = TheBridge(next: thePrison)
         let theHotel = TheHotel(next: theBridge)
         let theWell = TheWell(next: theHotel)
+        let theMaze = TheMaze(next: theWell)
+        let theDeath = TheDeath(next: theMaze)
+        let theFinish = TheFinish(next: theDeath)
         
-        return TheMaze(next: theWell)
+        return GoBackToPrison(next: theFinish)
     }
 }

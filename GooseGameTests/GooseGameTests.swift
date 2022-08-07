@@ -84,6 +84,38 @@ class GooseGameTests: XCTestCase {
         thenRuleIs("The Prison: Wait until someone comes to release you - they then take your place")
     }
     
+    func test_PrintTheDeath_WhenSpaceIs58() {
+        givenAGooseGame()
+        
+        whenGetRule(space: 58)
+        
+        thenRuleIs("Death: Return your piece to the beginning - start the game again")
+    }
+    
+    func test_PrintTheFinish_WhenSpaceIs63() {
+        givenAGooseGame()
+        
+        whenGetRule(space: 63)
+        
+        thenRuleIs("Finish: you ended the game")
+    }
+    
+    func test_PrintGoBackToPrison_WhenSpaceIs64() {
+        givenAGooseGame()
+        
+        whenGetRule(space: 64)
+        
+        thenRuleIs("Move to space 53 and stay in prison for two turns")
+    }
+    
+    func test_PrintGoBackToPrison_WhenSpaceIs65() {
+        givenAGooseGame()
+        
+        whenGetRule(space: 65)
+        
+        thenRuleIs("Move to space 53 and stay in prison for two turns")
+    }
+    
     private func givenAGooseGame() {
         gooseGame = GooseGame()
     }
